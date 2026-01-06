@@ -5,6 +5,7 @@ import type {ReactNode} from "react";
 
 import type {Locale} from "@/i18n/routing";
 import {asset} from "@/lib/asset";
+import {MobileNav} from "@/components/MobileNav";
 
 function NavLink({
   href,
@@ -25,6 +26,12 @@ function NavLink({
 
 export async function SiteHeader({locale}: {locale: Locale}) {
   const t = await getTranslations({locale, namespace: "site"});
+  const navItems = [
+    {href: `/${locale}`, label: t("nav.home")},
+    {href: `/${locale}/products`, label: t("nav.products")},
+    {href: `/${locale}/about`, label: t("nav.about")},
+    {href: `/${locale}/contact`, label: t("nav.contact")},
+  ];
 
   return (
     <header className="border-b border-black/5 bg-white/80 backdrop-blur dark:border-white/10 dark:bg-black/40">
@@ -51,10 +58,11 @@ export async function SiteHeader({locale}: {locale: Locale}) {
         </div>
 
         <nav className="hidden items-center gap-6 md:flex">
-          <NavLink href={`/${locale}`}>{t("nav.home")}</NavLink>
-          <NavLink href={`/${locale}/products`}>{t("nav.products")}</NavLink>
-          <NavLink href={`/${locale}/about`}>{t("nav.about")}</NavLink>
-          <NavLink href={`/${locale}/contact`}>{t("nav.contact")}</NavLink>
+          {navItems.map((i) => (
+            <NavLink key={i.href} href={i.href}>
+              {i.label}
+            </NavLink>
+          ))}
         </nav>
 
         <div className="flex items-center gap-2">
@@ -64,6 +72,14 @@ export async function SiteHeader({locale}: {locale: Locale}) {
           >
             {locale === "zh" ? "English" : "中文"}
           </Link>
+
+          <MobileNav
+            items={navItems}
+            languageSwitch={{
+              href: locale === "zh" ? "/en" : "/zh",
+              label: locale === "zh" ? "English" : "中文",
+            }}
+          />
         </div>
       </div>
     </header>
