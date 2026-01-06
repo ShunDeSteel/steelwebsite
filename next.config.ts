@@ -3,14 +3,18 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
+const isStaticExport = process.env.STATIC_EXPORT === "true";
+
 const nextConfig: NextConfig = {
   /**
-   * GitHub Pages requires a fully static site.
-   * - `output: "export"` outputs static files to `/out`
-   * - `images.unoptimized` is required because Next/Image optimization needs a server
+   * GitHub Pages requires a fully static site:
+   * - set `STATIC_EXPORT=true` to output static files to `/out`
+   *
+   * Notes:
+   * - We keep `images.unoptimized` enabled so the site works on static hosting
    * - `basePath`/`assetPrefix` supports hosting under `https://<user>.github.io/<repo>/`
    */
-  output: "export",
+  output: isStaticExport ? "export" : undefined,
   images: {unoptimized: true},
   trailingSlash: true,
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
