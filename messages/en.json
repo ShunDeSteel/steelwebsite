@@ -1,0 +1,183 @@
+{
+  "site": {
+    "name": "Shunde Metal Processing Factory Co., Ltd.",
+    "tagline": "Metal processing & steel products for global trade",
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "home": {
+    "heroTitle": "Factory-scale metal processing you can trust",
+    "heroSubtitle": "Stable supply, consistent quality control, and export-ready service.",
+    "highlights": {
+      "title": "Why work with us",
+      "q1": "Factory scale",
+      "a1": "Organized facilities and stable capacity for bulk orders.",
+      "q2": "Inventory & delivery",
+      "a2": "Efficient warehousing and packaging to support fast shipment.",
+      "q3": "Quality & process",
+      "a3": "Process control and inspection support for consistent quality."
+    },
+    "cta": {
+      "primary": "Request a quote",
+      "secondary": "View products"
+    }
+  },
+  "products": {
+    "title": "Products & Capabilities",
+    "subtitle": "Below is our main product range. Product photos will be added per item.",
+    "items": [
+      {
+        "slug": "hot-rolled-coil",
+        "title": "Hot Rolled Coil / Black Strip",
+        "desc": "Hot rolled coil and black strip for construction and general fabrication.",
+        "images": ["/images/products/hot-rolled-coil-1.png"]
+      },
+      {
+        "slug": "galvanized-strip",
+        "title": "Galvanized Strip Steel",
+        "desc": "Zinc-coated strip for building and industrial applications.",
+        "images": ["/images/products/galvanized-strip-1.png"]
+      },
+      {
+        "slug": "scaffold-tube",
+        "title": "Scaffold Tube (Racking/Scaffolding Pipe)",
+        "desc": "Steel tube for scaffolding systems and construction sites.",
+        "images": [
+          "/images/products/scaffold-tube-1.png",
+          "/images/products/scaffold-tube-2.png"
+        ]
+      },
+      {
+        "slug": "precision-tube",
+        "title": "Precision Tube",
+        "desc": "Tight tolerance tube for structure and mechanical use.",
+        "images": [
+          "/images/products/precision-tube-1.png",
+          "/images/products/precision-tube-2.png"
+        ]
+      },
+      {
+        "slug": "ringlock",
+        "title": "Ringlock Scaffolding System",
+        "desc": "Modular ringlock components for fast and safe assembly.",
+        "images": [
+          "/images/products/ringlock-1.png",
+          "/images/products/ringlock-2.png"
+        ]
+      },
+      {
+        "slug": "deformed-rebar",
+        "title": "Deformed Rebar",
+        "desc": "Reinforcing steel bar for concrete structures.",
+        "images": [
+          "/images/products/deformed-rebar-1.png",
+          "/images/products/deformed-rebar-2.png"
+        ]
+      },
+      {
+        "slug": "angle-steel",
+        "title": "Angle Steel",
+        "desc": "L-angle section for frames, supports, and fabrication.",
+        "images": [
+          "/images/products/angle-steel-1.png",
+          "/images/products/angle-steel-2.png"
+        ]
+      },
+      {
+        "slug": "channel-steel",
+        "title": "Channel Steel",
+        "desc": "U/C channel section for structure and engineering projects.",
+        "images": [
+          "/images/products/channel-steel-1.png",
+          "/images/products/channel-steel-2.png"
+        ]
+      },
+      {
+        "slug": "i-beam",
+        "title": "I-Beam",
+        "desc": "I/H section for building structures and heavy-duty support.",
+        "images": ["/images/products/i-beam-1.png", "/images/products/i-beam-2.png"]
+      },
+      {
+        "slug": "manganese-spring-steel",
+        "title": "Spring Steel (50Mn / 65Mn)",
+        "desc": "Manganese spring steel strip for springs and wear parts.",
+        "images": [
+          "/images/products/manganese-spring-steel-1.png",
+          "/images/products/manganese-spring-steel-2.png"
+        ]
+      },
+      {
+        "slug": "cold-hard-strip",
+        "title": "Cold Hard Strip",
+        "desc": "Cold rolled hard strip for forming and further processing.",
+        "images": [
+          "/images/products/cold-hard-strip-1.png",
+          "/images/products/cold-hard-strip-2.png"
+        ]
+      },
+      {
+        "slug": "annealed-strip",
+        "title": "Annealed Strip",
+        "desc": "Annealed strip for improved ductility and forming.",
+        "images": ["/images/products/annealed-strip-1.png"]
+      },
+      {
+        "slug": "screw-jack",
+        "title": "Scaffold Screw Jack (U-Head / Base)",
+        "desc": "Adjustable jacks used for leveling and support in scaffolding.",
+        "images": ["/images/products/screw-jack-1.png"]
+      },
+      {
+        "slug": "steel-plank",
+        "title": "Steel Plank (Scaffold Plank)",
+        "desc": "Steel planks for platforms, walkways, and scaffolding systems.",
+        "images": ["/images/products/steel-plank-1.png"]
+      },
+      {
+        "slug": "diagonal-brace",
+        "title": "Diagonal Brace",
+        "desc": "Bracing components used to improve scaffolding stability.",
+        "images": ["/images/products/diagonal-brace-1.png"]
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "A China-based factory focused on metal processing and steel products for global customers.",
+    "body": "Shunde Metal Processing Factory Co., Ltd. provides metal processing and steel products with stable supply, quality control support, and export-friendly packaging. This page highlights our facilities, production environment, and delivery processes."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Tell us what you need and we will reply quickly.",
+    "cards": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "form": {
+      "title": "Inquiry form",
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send inquiry"
+    },
+    "notes": {
+      "privacy": "We only use your information to respond to your inquiry."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
+
+
+
+
+
+

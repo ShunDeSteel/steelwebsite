@@ -1,0 +1,183 @@
+{
+  "site": {
+    "name": "顺德金属加工厂",
+    "tagline": "面向全球贸易的金属加工与钢铁产品供应",
+    "nav": {
+      "home": "首页",
+      "products": "产品与能力",
+      "about": "关于我们",
+      "contact": "联系方式"
+    }
+  },
+  "home": {
+    "heroTitle": "值得信赖的工厂实力与金属加工能力",
+    "heroSubtitle": "供货稳定、质量可控、包装与发运更符合外贸需求。",
+    "highlights": {
+      "title": "为什么选择我们",
+      "q1": "工厂规模",
+      "a1": "厂房与设备完善，适合批量稳定供货。",
+      "q2": "库存与交付",
+      "a2": "仓储与包装流程规范，支持快速发货。",
+      "q3": "质量与工艺",
+      "a3": "过程管控与检验支持，让产品更稳定。"
+    },
+    "cta": {
+      "primary": "获取报价",
+      "secondary": "查看产品"
+    }
+  },
+  "products": {
+    "title": "产品与能力",
+    "subtitle": "以下为主要产品范围（产品图片将逐项补充）。",
+    "items": [
+      {
+        "slug": "hot-rolled-coil",
+        "title": "热卷 / 黑带",
+        "desc": "热轧卷与黑带（同类产品），适用于建材与一般加工，供货稳定。",
+        "images": ["/images/products/hot-rolled-coil-1.png"]
+      },
+      {
+        "slug": "galvanized-strip",
+        "title": "镀锌带钢",
+        "desc": "锌层防护，适用于建材与工业用途。",
+        "images": ["/images/products/galvanized-strip-1.png"]
+      },
+      {
+        "slug": "scaffold-tube",
+        "title": "架子管（脚手架钢管）",
+        "desc": "用于施工脚手架系统与工地搭建。",
+        "images": [
+          "/images/products/scaffold-tube-1.png",
+          "/images/products/scaffold-tube-2.png"
+        ]
+      },
+      {
+        "slug": "precision-tube",
+        "title": "精密管",
+        "desc": "尺寸精度更高，适用于结构与机械用途。",
+        "images": [
+          "/images/products/precision-tube-1.png",
+          "/images/products/precision-tube-2.png"
+        ]
+      },
+      {
+        "slug": "ringlock",
+        "title": "盘扣脚手架",
+        "desc": "模块化盘扣构件，搭建效率高、稳定可靠。",
+        "images": [
+          "/images/products/ringlock-1.png",
+          "/images/products/ringlock-2.png"
+        ]
+      },
+      {
+        "slug": "deformed-rebar",
+        "title": "螺纹钢（Rebar）",
+        "desc": "用于混凝土结构钢筋加固。",
+        "images": [
+          "/images/products/deformed-rebar-1.png",
+          "/images/products/deformed-rebar-2.png"
+        ]
+      },
+      {
+        "slug": "angle-steel",
+        "title": "角钢",
+        "desc": "用于框架、支撑与金属结构加工。",
+        "images": [
+          "/images/products/angle-steel-1.png",
+          "/images/products/angle-steel-2.png"
+        ]
+      },
+      {
+        "slug": "channel-steel",
+        "title": "槽钢",
+        "desc": "用于结构工程与设备支撑。",
+        "images": [
+          "/images/products/channel-steel-1.png",
+          "/images/products/channel-steel-2.png"
+        ]
+      },
+      {
+        "slug": "i-beam",
+        "title": "工字钢",
+        "desc": "用于建筑结构与承重支撑。",
+        "images": ["/images/products/i-beam-1.png", "/images/products/i-beam-2.png"]
+      },
+      {
+        "slug": "manganese-spring-steel",
+        "title": "锰钢（50Mn / 65Mn）",
+        "desc": "常用于弹簧钢带、耐磨零件等。",
+        "images": [
+          "/images/products/manganese-spring-steel-1.png",
+          "/images/products/manganese-spring-steel-2.png"
+        ]
+      },
+      {
+        "slug": "cold-hard-strip",
+        "title": "冷硬带",
+        "desc": "冷轧硬态钢带，适用于成型与再加工。",
+        "images": [
+          "/images/products/cold-hard-strip-1.png",
+          "/images/products/cold-hard-strip-2.png"
+        ]
+      },
+      {
+        "slug": "annealed-strip",
+        "title": "退火带",
+        "desc": "退火后延展性更好，利于成型加工。",
+        "images": ["/images/products/annealed-strip-1.png"]
+      },
+      {
+        "slug": "screw-jack",
+        "title": "上下托（可调底座/顶托）",
+        "desc": "用于脚手架找平与支撑的可调底座/顶托配件。",
+        "images": ["/images/products/screw-jack-1.png"]
+      },
+      {
+        "slug": "steel-plank",
+        "title": "踏板（脚手架踏板）",
+        "desc": "用于脚手架平台、通道与作业面铺设。",
+        "images": ["/images/products/steel-plank-1.png"]
+      },
+      {
+        "slug": "diagonal-brace",
+        "title": "斜拉杆",
+        "desc": "用于提高脚手架整体稳定性的斜撑/拉杆构件。",
+        "images": ["/images/products/diagonal-brace-1.png"]
+      }
+    ]
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "专注金属加工与钢铁产品供应，服务全球客户。",
+    "body": "顺德金属加工厂面向海外客户提供稳定供货的钢铁/金属产品，并配套外贸包装与交付支持。本页面将展示我们的厂区环境、生产与仓储、以及包装交付流程，帮助客户快速建立信任。"
+  },
+  "contact": {
+    "title": "联系方式",
+    "subtitle": "告诉我们你的需求，我们会尽快回复。",
+    "cards": {
+      "email": "邮箱",
+      "phone": "电话",
+      "address": "地址"
+    },
+    "form": {
+      "title": "询盘表单",
+      "name": "姓名",
+      "company": "公司",
+      "email": "邮箱",
+      "message": "需求说明",
+      "submit": "发送询盘"
+    },
+    "notes": {
+      "privacy": "我们仅用于回复你的询盘，不会滥用信息。"
+    }
+  },
+  "footer": {
+    "rights": "版权所有。"
+  }
+}
+
+
+
+
+
+
