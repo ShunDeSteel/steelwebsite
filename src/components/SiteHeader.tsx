@@ -4,6 +4,7 @@ import {getTranslations} from "next-intl/server";
 import type {ReactNode} from "react";
 
 import type {Locale} from "@/i18n/routing";
+import {asset} from "@/lib/asset";
 
 function NavLink({
   href,
@@ -31,7 +32,7 @@ export async function SiteHeader({locale}: {locale: Locale}) {
         <div className="flex min-w-0 items-center gap-3">
           <div className="relative h-10 w-10 overflow-hidden rounded-xl border border-black/10 bg-white dark:border-white/15">
             <Image
-              src="/images/logo.png"
+              src={asset("/images/logo.png")}
               alt={t("name")}
               fill
               sizes="40px"

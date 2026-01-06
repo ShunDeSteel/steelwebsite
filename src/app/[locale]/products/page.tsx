@@ -2,6 +2,7 @@ import {getTranslations, setRequestLocale} from "next-intl/server";
 import Image from "next/image";
 
 import {isLocale} from "@/i18n/routing";
+import {asset} from "@/lib/asset";
 
 type ProductItem = {
   slug: string;
@@ -42,7 +43,7 @@ export default async function ProductsPage({
               {item.images?.length ? (
                 <>
                 <Image
-                  src={item.images[0]}
+                  src={asset(item.images[0])}
                   alt={item.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -50,7 +51,7 @@ export default async function ProductsPage({
                 />
                 {item.images[1] ? (
                   <Image
-                    src={item.images[1]}
+                    src={asset(item.images[1])}
                     alt={item.title}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"

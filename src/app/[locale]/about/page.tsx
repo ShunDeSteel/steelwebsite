@@ -2,6 +2,7 @@ import {getTranslations, setRequestLocale} from "next-intl/server";
 import Image from "next/image";
 
 import {isLocale} from "@/i18n/routing";
+import {asset} from "@/lib/asset";
 
 export default async function AboutPage({
   params,
@@ -31,7 +32,7 @@ export default async function AboutPage({
         <div className="overflow-hidden rounded-2xl border border-black/5 dark:border-white/10">
           <div className="relative aspect-[4/3]">
             <Image
-              src="/images/about/production-line.png"
+              src={asset("/images/about/production-line.png")}
               alt="Production"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -49,7 +50,7 @@ export default async function AboutPage({
           <div className="overflow-hidden rounded-2xl border border-black/5 dark:border-white/10">
             <div className="relative aspect-[4/3]">
               <Image
-                src="/images/about/lab.png"
+                src={asset("/images/about/lab.png")}
                 alt="Lab"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -60,7 +61,7 @@ export default async function AboutPage({
           <div className="overflow-hidden rounded-2xl border border-black/5 dark:border-white/10">
             <div className="relative aspect-[4/3]">
               <Image
-                src="/images/about/packaging-line.png"
+                src={asset("/images/about/packaging-line.png")}
                 alt="Packaging"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -71,7 +72,7 @@ export default async function AboutPage({
           <div className="overflow-hidden rounded-2xl border border-black/5 dark:border-white/10">
             <div className="relative aspect-[4/3]">
               <Image
-                src="/images/about/finished-storage-1.png"
+                src={asset("/images/about/finished-storage-1.png")}
                 alt="Storage"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -86,7 +87,7 @@ export default async function AboutPage({
         <div className="overflow-hidden rounded-2xl border border-black/5 dark:border-white/10">
           <div className="relative aspect-[16/10]">
             <Image
-              src="/images/export/packing-1.png"
+              src={asset("/images/export/packing-1.png")}
               alt="Packing process"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -97,7 +98,7 @@ export default async function AboutPage({
         <div className="overflow-hidden rounded-2xl border border-black/5 dark:border-white/10">
           <div className="relative aspect-[16/10]">
             <Image
-              src="/images/export/packing-2.png"
+              src={asset("/images/export/packing-2.png")}
               alt="Packing process"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

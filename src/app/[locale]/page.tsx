@@ -3,6 +3,7 @@ import Link from "next/link";
 import {getTranslations, setRequestLocale} from "next-intl/server";
 
 import {isLocale} from "@/i18n/routing";
+import {asset} from "@/lib/asset";
 
 export default async function HomePage({
   params,
@@ -22,7 +23,7 @@ export default async function HomePage({
       <section className="relative overflow-hidden rounded-3xl border border-black/5 bg-zinc-950 dark:border-white/10">
         <div className="absolute inset-0">
           <Image
-            src="/images/home/hero-aerial.png"
+            src={asset("/images/home/hero-aerial.png")}
             alt={tSite("name")}
             fill
             priority
@@ -70,7 +71,7 @@ export default async function HomePage({
           <div className="overflow-hidden rounded-2xl border border-black/5 dark:border-white/10">
             <div className="relative aspect-[4/3]">
               <Image
-                src="/images/home/strength-factory-outdoor.png"
+                src={asset("/images/home/strength-factory-outdoor.png")}
                 alt={tHome("highlights.q1")}
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -88,7 +89,7 @@ export default async function HomePage({
           <div className="overflow-hidden rounded-2xl border border-black/5 dark:border-white/10">
             <div className="relative aspect-[4/3]">
               <Image
-                src="/images/home/strength-warehouse.png"
+                src={asset("/images/home/strength-warehouse.png")}
                 alt={tHome("highlights.q2")}
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -106,7 +107,7 @@ export default async function HomePage({
           <div className="overflow-hidden rounded-2xl border border-black/5 dark:border-white/10">
             <div className="relative aspect-[4/3]">
               <Image
-                src="/images/home/strength-2.png"
+                src={asset("/images/home/strength-2.png")}
                 alt={tHome("highlights.q3")}
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
